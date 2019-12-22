@@ -1,17 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <b-navbar toggleable="lg" type="dark" variant="info" fixed="top">
+      <b-navbar-brand><router-link to="/rooms" class="navbar-item">Reserve a room </router-link></b-navbar-brand>
+      <b-navbar-brand><router-link to="/cars" class="navbar-item">Rent a car </router-link></b-navbar-brand>
+    </b-navbar>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VueRouter from 'vue-router'
+import VueElementLoading from 'vue-element-loading'
+
+import RentACar from './components/RentACar.vue'
+import ReserveARoom from './components/ReserveARoom.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    VueElementLoading,
+    RentACar,
+    ReserveARoom
   }
 }
 </script>
