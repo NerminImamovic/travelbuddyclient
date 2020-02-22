@@ -1,5 +1,7 @@
 # travelbuddyclient
 
+Client side UI Application for comparsion.
+
 ## Project setup
 ```
 npm install
