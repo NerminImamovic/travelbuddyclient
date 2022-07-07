@@ -10,7 +10,7 @@
     "axios": "^0.19.0",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.1.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "vue": "^2.6.10",
     "vue-element-loading": "^1.1.5",
     "vue-places": "^2.1.1",
